@@ -65,6 +65,7 @@ setup(
         "dash_daq",
         "Flask-Compress",
         "Flask",
+        "flask-ngrok; python_version > '3.0'",
         "future",
         "itsdangerous",
         "pandas",
@@ -77,8 +78,7 @@ setup(
         'r': [
             "rpy2<=2.8.6; python_version < '3.0'",
             "rpy2; python_version > '3.0'",
-        ],
-        'ngrok': ["flask-ngrok; python_version > '3.0'"]
+        ]
     },
     tests_require=[
         "ipython",
